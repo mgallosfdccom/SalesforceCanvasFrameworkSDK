@@ -1,5 +1,5 @@
 <%@ page import="canvas.SignedRequest" %>
-<%@ page import="java.util.Map" %>
+<%@ page import="java.util.*" %>
 <%
     // Pull the signed request out of the request body and verify/decode it.
     Map<String, String[]> parameters = request.getParameterMap();
