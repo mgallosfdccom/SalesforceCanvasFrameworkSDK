@@ -43,6 +43,6 @@
 </head>
 <body>
     <br/>
-    <h1>Hello <span id='username'></span></h1>
+    <h1>Hello  <script>sr.client </script> <span id='username'></span></h1>
 </body>
 </html>
