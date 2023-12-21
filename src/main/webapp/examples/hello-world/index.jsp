@@ -5,8 +5,8 @@
     Map<String, String[]> parameters = request.getParameterMap();
     String[] signedRequest = parameters.get("signed_request");
     if (signedRequest == null) {%>
-        This App must be invoked via a signed request!<%
-        return;
+       This App must be invoked via a signed request!<%
+       return;
     }
     //String yourConsumerSecret=System.getenv("CANVAS_CONSUMER_SECRET");
     String yourConsumerSecret="C35F2DC069DD904CFA5B9811E7461FBB919BF6DF8E8D648055EAF2E699217A16";
